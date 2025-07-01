@@ -10,6 +10,7 @@ import FAQSection from "./FAQSection";
 import FooterSection from "./FooterSection";
 import HomeSection from "./HomeSection";
 import ServicesSection from "./ServicesSection";
+import AudioDisk from "./AudioDisk";
 // ... existing code ...
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -74,6 +75,7 @@ export default function Home() {
       <ServicesSection />
       <AboutSection />
       <ContactSection />
+      <AudioDisk />
       <FAQSection />
       <FooterSection />
     </div>

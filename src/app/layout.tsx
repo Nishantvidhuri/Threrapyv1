@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import AudioDisk from "./AudioDisk";
+
 
 const inter = Inter({
   subsets: ["latin"],
@@ -32,7 +32,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.variable} antialiased`}>
         
-        <AudioDisk />
+  
         {children}
       </body>
     </html>

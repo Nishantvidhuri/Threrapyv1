@@ -83,7 +83,9 @@ export default function FAQSection() {
             {faqs.map((faq, idx) => (
               <div
                 key={faq.question}
-                ref={(el) => (cardsRef.current[idx] = el!)}
+                ref={(el) => {
+                  cardsRef.current[idx] = el!;
+                }}
                 className="border border-gray-200 rounded-lg bg-white/90 shadow"
               >
                 <button

@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, RefObject, useState } from "react";
 
-export default function MouseFollower({ containerRef }: { containerRef: RefObject<HTMLDivElement> }) {
+export default function MouseFollower({ containerRef }: { containerRef: RefObject<HTMLDivElement | null> }) {
   const followerRef = useRef<HTMLDivElement>(null);
   const pos = useRef({ x: 0, y: 0 });
   const mouse = useRef({ x: 0, y: 0 });

@@ -22,10 +22,10 @@ export default function HomeSection() {
     "Growth starts when you feel safe.",
     "Your story matters. Every word of it.",
     "Clarity is born in conversation.",
-    "It’s okay to not be okay. Let’s start there.",
+    "It's okay to not be okay. Let's start there.",
     "You are not alone in this.",
     "Sometimes all it takes is one honest moment.",
-    "We’re here to hold space for your healing.",
+    "We're here to hold space for your healing.",
   ];
 
   useEffect(() => {

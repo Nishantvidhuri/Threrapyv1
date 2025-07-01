@@ -157,8 +157,9 @@ src/
 ## 📞 Contact
 
 For questions about this website or to request modifications:
-- Email: [your-email@example.com]
-- GitHub: [your-github-username]
+- Email: nishantvidhuri0987@gmail.com
+- GitHub: https://github.com/Nishantvidhuri
+- Phone No: +91 9871202673
 
 ## 📄 License
 

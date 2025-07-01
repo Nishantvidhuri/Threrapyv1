@@ -71,7 +71,9 @@ export default function ServicesSection() {
           {services.map((s, i) => (
               <div
               key={s.title}
-              ref={(el) => (cardsRef.current[i] = el!)}
+              ref={(el) => {
+                cardsRef.current[i] = el!;
+              }}
               className="relative bg-[#23201c]/90 rounded-3xl shadow-2xl p-0 flex flex-col items-stretch overflow-hidden group transition-transform hover:-translate-y-2 hover:shadow-3xl duration-300"
               >
               <div className="relative w-full h-56 md:h-52 overflow-hidden flex items-center justify-center">
