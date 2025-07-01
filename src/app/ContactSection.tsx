@@ -23,9 +23,9 @@ export default function ContactSection() {
           ease: "power3.out",
           scrollTrigger: {
             trigger: leftRef.current,
-            start: "top 80%",
-            end: "top 40%",
-            scrub: 1,
+            start: "top 90%",
+            end: "top 30%",
+            scrub: 2,
           },
         }
       );
@@ -42,9 +42,9 @@ export default function ContactSection() {
           ease: "power3.out",
           scrollTrigger: {
             trigger: rightRef.current,
-            start: "top 80%",
-            end: "top 40%",
-            scrub: 1,
+            start: "top 90%",
+            end: "top 30%",
+            scrub: 2,
           },
         }
       );

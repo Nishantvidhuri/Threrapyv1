@@ -20,9 +20,9 @@ export default function AboutSection() {
           ease: "power3.out",
           scrollTrigger: {
             trigger: textRef.current,
-            start: "top 50%",
+            start: "top 90%",
             end: "top 30%",
-            scrub: 1,
+            scrub: 2,
           },
         }
       );
@@ -38,9 +38,9 @@ export default function AboutSection() {
           ease: "power3.out",
           scrollTrigger: {
             trigger: imgRef.current,
-            start: "top 50%",
+            start: "top 90%",
             end: "top 30%",
-            scrub: 1,
+            scrub: 2,
           },
         }
       );
