@@ -38,7 +38,7 @@ export default function ContactForm() {
       // Send email via EmailJS
       await emailjs.send(
         'service_v5ma1dr', // provided EmailJS service ID
-        'template_n8csemo', // provided EmailJS template ID
+        'template_x6621ui', // provided EmailJS template ID
         {
           firstName: data.firstName,
           lastName: data.lastName,
